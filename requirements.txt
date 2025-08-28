@@ -1,0 +1,17 @@
+Platform: Google Colab (preferred) / Jupyter Notebook
+
+Programming Language: Python 3.x
+
+Libraries/Modules:
+
+cryptography (Fernet for AES encryption & decryption)
+
+hashlib (SHA-256 password hashing)
+
+ipywidgets (interactive UI elements)
+
+base64 (for encoding/decoding file content for download)
+
+time (execution time analysis)
+
+os, io (file handling)
