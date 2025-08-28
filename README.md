@@ -3,13 +3,13 @@ This project implements a privacy-preserving content-based image retrieval syste
 
 Process
 
-File Upload
+*File Upload
 
 User selects an image/file in Google Colab.
 
 File details (name, type, size, timestamp) are displayed.
 
-Encryption
+*Encryption
 
 The file is encrypted locally using AES (Fernet).
 
@@ -17,13 +17,13 @@ User can set a password (hashed with SHA-256) or use an auto-generated key.
 
 Encrypted file and key are displayed for secure storage.
 
-Storage/Retrieval
+*Storage/Retrieval
 
 Encrypted files are stored securely without exposing raw content.
 
 Users maintain full control since no data is sent to external servers.
 
-Decryption
+*Decryption
 
 User provides either the correct password or secret key.
 
@@ -31,7 +31,7 @@ System verifies input and decrypts the file locally.
 
 Successfully decrypted file is available for download or further retrieval.
 
-Privacy Guarantee
+*Privacy Guarantee
 
 All operations happen client-side in Colab/browser.
 
