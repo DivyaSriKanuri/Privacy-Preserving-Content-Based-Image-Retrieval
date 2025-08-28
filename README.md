@@ -1,4 +1,5 @@
 # Privacy-Preserving-Content-Based-Image-Retrieval
+Here is my Google Colab notebook for the project Privacy-Preserving Content-Based Image Retrieval (PP-CBIR) : https://colab.research.google.com/drive/1_ALVx1IlBJ6Q6VNNuPbZuQ9AmVZxotJA?usp=sharing.
 This project implements a privacy-preserving content-based image retrieval system that allows users to securely encrypt, upload, search, and retrieve images without exposing raw data or keys to external servers. Built and tested on Google Colab, it uses AES-based encryption (Fernet) with both password and key-based access, ensuring complete client-side security. The system is lightweight, user-friendly, and scalable for real-world cloud-based file sharing and retrieval.
 
 Process
